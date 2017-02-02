@@ -1,5 +1,5 @@
 #FROM centos:7
-FROM openshift3/rhel7.3
+FROM registry.access.redhat.com/rhel7.3
 MAINTAINER tim@timhunt.net
 
 ENV SQUID_VERSION=3.3.8
