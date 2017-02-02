@@ -1,5 +1,5 @@
 #FROM centos:7
-FROM registry.access.redhat.com/rhel7.3
+FROM docker.io/centos:7
 MAINTAINER tim@timhunt.net
 
 ENV SQUID_VERSION=3.3.8
