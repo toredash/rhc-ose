@@ -36,7 +36,7 @@ spec:
         - name: UPSTREAM_PROXY
           value: 200.195.167.26:8080
         - name: LOCAL_DOMAINS
-          value: .corp.example.com .redhat.com
+          value: .adeo.no
         image: rhc-ose:latest
         imagePullPolicy: Always
         name: squid
