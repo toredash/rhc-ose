@@ -34,10 +34,10 @@ spec:
       containers:
       - env:
         - name: UPSTREAM_PROXY
-          value: proxy.corp.example.com:8080
+          value: 200.195.167.26:8080
         - name: LOCAL_DOMAINS
           value: .corp.example.com .redhat.com
-        image: 172.30.48.143:5000/openshift/squid:latest
+        image: rhc-ose:latest
         imagePullPolicy: Always
         name: squid
         ports:
